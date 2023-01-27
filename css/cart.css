@@ -1,0 +1,33 @@
+nav {
+    display: none !important;
+}
+
+.details {
+    /* background: red; */
+    /* display: flex; */
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 0.5fr 1fr;
+    text-align: left;
+    gap: 0.2rem;
+}
+
+.details>p {
+    /* background: saddlebrown; */
+    font-size: 0.7rem;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.total_billed_amount {
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.name_on_cart {
+    font-family: 'Mova';
+    font-weight: 900;
+}
